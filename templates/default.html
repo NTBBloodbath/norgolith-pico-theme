@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ metadata.title | title }}{% endblock title %}
+{% block content %}
+<div>
+{{ content | safe }}
+</div>
+{% endblock content %}
+{% block footer %}
+<footer>
+  <div>
+    <span
+        >Copyright &copy; {{ now(format="%Y") }}
+      <a
+        href="https://github.com/NTBBloodbath">NTBBloodbath</a
+      >. Licensed under GPLv2.</span
+    >
+    <a href="https://github.com/NTBBloodbath/norgolith">
+      <span>GitHub</span>
+    </a>
+  </div>
+</footer>
+{% endblock footer %}

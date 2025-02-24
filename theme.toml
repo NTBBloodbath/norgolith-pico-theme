@@ -1,0 +1,6 @@
+name = "Norgolith Pico"
+author = "NTBBloodbath"
+description = "PicoCSS for Norgolith"
+version = "0.1.0"
+license = "MIT"
+repository = "github:NTBBloodbath/norgolith-pico-theme"
